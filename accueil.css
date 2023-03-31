@@ -1,0 +1,86 @@
+:root{
+    --main-color: #101325;
+    --nav-color: #0d0f19;
+    --second-color: #2581DC
+}
+nav{
+    background-color: var(--nav-color);
+    height: auto;
+    margin: 0px;
+    top: 0;
+    left: 0;
+    right: 0;
+   
+
+    display: flex;
+    
+}
+body{
+    margin: 0;
+    padding: 0;
+    color: white;
+    background-color: var(--main-color);
+    font-family: 'Roboto', sans-serif;
+}
+li{
+    color: white;
+    margin: 0px;
+    list-style-type: none;
+    padding: 15px 60px;
+    
+}
+li:hover{
+    background-color: var(--second-color);
+    text-decoration: underline;
+    cursor: pointer;
+}
+ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    width: -webkit-fill-available;
+    padding: 0px;
+    
+}
+.caddie{
+    height: 30px;
+    width: 30px;
+}
+h1{
+    
+    left: 0px;
+    margin: 20px 50px;
+    cursor: unset;
+    text-decoration: underline;
+    
+}
+h2{
+    left: 0px;
+    margin: 20px 50px;
+    cursor: unset;
+    text-decoration: underline;
+}
+h3{
+    margin: 0px;
+}
+.tableau {
+    width: 50em;
+    border-radius: 10px;
+}
+.cadre{
+    margin: 50px;
+    display: flex;
+}
+.titre{
+    justify-content: center;
+    text-align: center;
+    padding: 1em;
+}
+.inverse{
+    flex-direction: row-reverse;
+}
+.descri {
+    padding: 2em;
+    font-size: 2em;
+}
